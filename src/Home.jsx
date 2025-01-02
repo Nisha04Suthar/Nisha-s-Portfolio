@@ -3,6 +3,7 @@ import './Home.css'
 import photo from './images/Passport_Photograph.jpg'
 import github from './images/gihb.png'
 import likedin from './images/lnkdin.png'
+import download from './images/downloads.png'
 
 export default function Home() {
   return (
@@ -20,6 +21,9 @@ export default function Home() {
             <div className="intro">
                 <h2>Hello, I'm <br/><span>NISHA SUTHAR</span></h2>
                 <span>Passionate Front-end Developer designing User-Friendly Interfaces with Code and Creativity.</span>
+                <div className='d-btn'>
+                    <button><a className='download-btn' href='/resume.pdf' download='resume'>Download CV <img style={{height:'15px', marginLeft:'2px' }} src={download}/></a></button>
+                </div>
             </div>
             <div className="image">
                 <img src={photo} alt=""/>

@@ -4,10 +4,6 @@
     top: 100px;
 }
 
-#About{
-    min-height: 700px;
-}
-
 .main{
     display: flex;
     margin: auto;
@@ -57,7 +53,7 @@
 
 .intro{
     position: relative;
-    margin-top: 160px;
+    margin-top: 140px;
     margin-left: 10%;
 }
 
@@ -103,14 +99,6 @@
     }
 }
 
-.About, .education, .contact{
-    padding: 50px;
-}
-
-.About h1{
-    position: relative;
-}
-
 .info{
     display: flex;
     margin-top: 80px;
@@ -121,47 +109,6 @@
         flex-direction: column-reverse;
     }
 }
-/* 
-.leftin{
-    width:50%;
-    margin-right: 20px;
-    display: flex;
-    flex-direction: column;
-}
-
-.rightin{
-    width:50%;
-    display: grid;
-    grid-template-rows: 20px 20px;
-    grid-template-columns: 100px 100px 100px;
-    row-gap: 120px; 
-    column-gap: 40px;
-    justify-content: center;
-}
-
-.leftin-item{
-    border-radius: 4px;
-    margin-left: 40px;
-    margin-top: 4px;
-}
-
-.leftin-item p{
-    font-weight: bold;
-    font-size:1rem;
-}
-
-.leftin-item span{
-    color: #F4B7F2;
-}
-
-.rightin-item{
-    margin-top: 30px;
-}
-
-.rightin-item img{
-    height: 6vh;
-    width: 6vw;
-} */
 
 .ach{
     width: 70%;
@@ -172,4 +119,29 @@
 .education h1{
     position: relative;
 
+}
+
+/* .download-btn{
+    background-color: whitesmoke;
+    color: #3a3153;
+} */
+
+.d-btn{
+    margin-top:20px ;
+    height:30px;
+    width:100%;
+}
+
+.d-btn button{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    color: #3a3153;
+    border: none;
+    height: 25px;
+    width:fit-content;
+}
+
+.download-btn{
+    color: #3a3153;
+    text-decoration: wavy;
 }
