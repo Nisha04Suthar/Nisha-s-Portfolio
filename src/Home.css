@@ -1,0 +1,175 @@
+
+#Home{
+    position: relative;
+    top: 100px;
+}
+
+#About{
+    min-height: 700px;
+}
+
+.main{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.links{
+    margin-top: 30px;
+    width:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 60px 0px;
+    z-index: 1;
+}
+
+.link{
+    background-color: #F4B7F2;
+    height:50px;
+    width: 100%;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+.link img{
+    height:35px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.intro{
+    position: relative;
+    margin-top: 160px;
+    margin-left: 10%;
+}
+
+
+.image img{
+    margin-top: 40px;
+    height: 400px;
+    border-radius: 43% 57% 47% 53% / 43% 62% 38% 57%;
+}
+
+.intro h2 span{
+    font-size: 3rem;
+    color:#F4B7F2 ;
+    font-family:cursive;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    border-right: 2px solid #333; /* Simulates a cursor */
+    width: 0; /* Initially hides the text */
+    animation: typing 6s steps(30, end), blink 0.5s step-end infinite;
+    animation-iteration-count: infinite; /* Repeats animation */
+    animation-delay: 2s; 
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    70% {
+        width: 100%; /* Typing completes */
+    }
+    100% {
+        width: 100%; /* Pause before restarting */
+    }
+}
+
+@keyframes blink {
+    0%, 100% {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #fff;
+    }
+}
+
+.About, .education, .contact{
+    padding: 50px;
+}
+
+.About h1{
+    position: relative;
+}
+
+.info{
+    display: flex;
+    margin-top: 80px;
+}
+
+@media(max-width:320px) {
+    .main{
+        flex-direction: column-reverse;
+    }
+}
+/* 
+.leftin{
+    width:50%;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightin{
+    width:50%;
+    display: grid;
+    grid-template-rows: 20px 20px;
+    grid-template-columns: 100px 100px 100px;
+    row-gap: 120px; 
+    column-gap: 40px;
+    justify-content: center;
+}
+
+.leftin-item{
+    border-radius: 4px;
+    margin-left: 40px;
+    margin-top: 4px;
+}
+
+.leftin-item p{
+    font-weight: bold;
+    font-size:1rem;
+}
+
+.leftin-item span{
+    color: #F4B7F2;
+}
+
+.rightin-item{
+    margin-top: 30px;
+}
+
+.rightin-item img{
+    height: 6vh;
+    width: 6vw;
+} */
+
+.ach{
+    width: 70%;
+    box-shadow: 0 0 4px #0000004b;
+    padding: 10px;
+}
+
+.education h1{
+    position: relative;
+
+}

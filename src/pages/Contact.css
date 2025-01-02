@@ -1,0 +1,47 @@
+
+.contact h1{
+    position: relative;
+}
+
+.con{
+    margin-top: 40px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.co{
+    margin-top: 20px;
+}
+
+.btn{
+    margin-top: 20px;
+    color: #3a3153;
+    background-color: #fff;
+    border-style: none;
+    height: 40px;
+    width:100px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px #F4B7F2;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: #3a3153;
+    background-color: #F4B7F2;
+    font-weight: bold;
+}
+
+.me{
+    width:40vw;
+    border-style: none;
+    /*background:#0000002b;*/
+    background-color: #F4B7F2;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 4px;
+}
+
+#msg{
+    height: 150px;
+}
