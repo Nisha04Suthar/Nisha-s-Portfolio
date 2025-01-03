@@ -1,0 +1,57 @@
+.About{
+    margin-top: 9rem;
+}
+
+.heading{
+    max-width: 768px;
+    margin: auto;
+    border-top: 1px solid #F4B7F2;
+    margin-bottom: 2rem;
+}
+
+.data{
+    /* margin-top: 1rem; */
+    border-left: 2px solid whitesmoke;
+    margin: 0 10px;
+}
+
+.ed{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+}
+
+.ed span{
+    font-weight: bold;
+}
+
+.ed p{
+    font-size:large;
+}
+
+.skills{
+    margin-top: 2rem;
+}
+
+.skill-data{
+    display: grid;
+    grid-template-columns: 7rem 7rem 7rem 7rem 7rem;
+    grid-template-rows: 2rem 2rem ;
+    row-gap: 1rem ;
+    column-gap: 2rem;
+}
+
+.sk{
+    margin-left: 1rem;
+    display: flex;
+    background-color: #F4B7F2;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    color: black;
+}
+
+.icon{
+    height: 1rem;
+    margin-right: 2px;
+}
