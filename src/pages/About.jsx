@@ -8,6 +8,8 @@ import java from '../images/java.png'
 import react from '../images/atom.png'
 import git from '../images/github (1).png'
 import figma from '../images/figma.png'
+import github from '../images/gihb.png'
+import link from '../images/link.png'
 
 function About() {
   return (
@@ -54,6 +56,33 @@ function About() {
             <div className="sk"><img className='icon' src={react}></img>React.js</div>
             <div className="sk"><img className='icon' src={figma}></img>Figma</div>
             <div className="sk"><img className='icon' src={git}></img>Github</div>
+          </div>
+        </div>
+
+        <div className="heading">
+          <h2>Non-Tech Skills</h2>
+          <div className="data skill-data">
+            <div className="sk">MS Word</div>
+            <div className="sk">Self-learning</div>
+            <div className="sk">Creativity</div>
+            <div className="sk">Positive-Attitude</div>
+            <dv className="sk">Adaptability</dv>
+            <div className="sk">Team Work</div>
+          </div>
+        </div>
+
+        <div className="heading">
+          <h2>Projects</h2>
+          <div className="project-data">
+            <div className="data-top">
+              <p style={{color:'black', marginLeft:'10px', fontWeight:'bold', fontSize:'large'}}>PGLife</p>
+            </div>
+            <div className="data-bottom">
+              <div id='bottom'>
+                <a href='https://github.com/Nisha04Suthar/PGLife'><img src={link} style={{height:'30px', marginRight:'10px',}}></img></a>
+                <img style={{height:'30px'}} src={github}/>
+              </div>
+            </div>
           </div>
         </div>
     </>
