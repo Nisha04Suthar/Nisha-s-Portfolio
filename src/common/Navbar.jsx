@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import logo from '../images/caticon.png'
+import logo from '../images/black-cat.png'
 import { Link } from 'react-router-dom';
 
 function Navbar() {
