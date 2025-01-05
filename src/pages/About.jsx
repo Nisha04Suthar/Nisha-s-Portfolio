@@ -10,6 +10,7 @@ import git from '../images/github (1).png'
 import figma from '../images/figma.png'
 import github from '../images/gihb.png'
 import link from '../images/link.png'
+import sql from '../images/mysql.png'
 
 function About() {
   return (
@@ -48,14 +49,15 @@ function About() {
         <div className="heading">
           <h2>Tech-Skills</h2>
           <div className="data skill-data">
-            <div className="sk"><img className='icon' src={html}></img>HTML</div>
-            <div className="sk"><img className='icon' src={css}></img>CSS</div>
-            <div className="sk"><img className='icon' src={js}></img>JavaScript</div>
-            <div className="sk"><img className='icon' src={boot}></img>Bootstrap</div>
-            <div className="sk"><img className='icon' src={java}></img>Java</div>
-            <div className="sk"><img className='icon' src={react}></img>React.js</div>
-            <div className="sk"><img className='icon' src={figma}></img>Figma</div>
-            <div className="sk"><img className='icon' src={git}></img>Github</div>
+            <div className="sk"><img className='icon' src={html} alt='html'></img>HTML</div>
+            <div className="sk"><img className='icon' src={css} alt='css'></img>CSS</div>
+            <div className="sk"><img className='icon' src={js} alt='js'></img>JavaScript</div>
+            <div className="sk"><img className='icon' src={boot} alt='bootstrap'></img>Bootstrap</div>
+            <div className="sk"><img className='icon' src={java} alt='java'></img>Java</div>
+            <div className="sk"><img className='icon' src={react} alt='react'></img>React.js</div>
+            <div className="sk"><img className='icon' src={figma} alt='figma'></img>Figma</div>
+            <div className="sk"><img className='icon' src={git} alt='github'></img>Github</div>
+            <div className="sk"><img className='icon' src={sql} alt='sql'></img>MySQL</div>
           </div>
         </div>
 
@@ -79,8 +81,8 @@ function About() {
             </div>
             <div className="data-bottom">
               <div id='bottom'>
-                <a href='https://github.com/Nisha04Suthar/PGLife'><img src={link} style={{height:'30px', marginRight:'10px',}}></img></a>
-                <img style={{height:'30px'}} src={github}/>
+                <a href='https://github.com/Nisha04Suthar/PGLife'><img src={link} style={{height:'30px', marginRight:'10px',}} alt='link'></img></a>
+                <img style={{height:'30px'}} src={github} alt='link'/>
               </div>
             </div>
           </div>

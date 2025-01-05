@@ -15,7 +15,7 @@
 
 .data{
     /* margin-top: 1rem; */
-    border-left: 2px dotted whitesmoke;
+    border-left: 2px dashed whitesmoke;
     margin: 0 10px;
 }
 
